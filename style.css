@@ -1,17 +1,14 @@
 /* BASE */
-body {
-}
-
-h1, h2 {
-    text-align: center;
-}
+body {}
 
 em strong {
     color: red;
 }
 
 /* HEADER */
-
+.titulo-principal {
+    padding-left: 20px;
+}
 
 /* MAIN */
 .banner {
@@ -20,6 +17,14 @@ em strong {
 
 .principal {
     background: #cccccc;
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+.titulo-centralizado {
+    text-align: center;
 }
 
 .missao {
@@ -27,7 +32,13 @@ em strong {
 }
 
 .beneficios {
+    background-color: rgb(253, 168, 129);
+    padding: 20px;
+}
 
+ul {
+    display: inline-block;
+    vertical-align: top;
 }
 
 .itens {
@@ -35,8 +46,7 @@ em strong {
 }
 
 .beneficios-imagem {
-    
+    width: 50%;
 }
 
 /* FOOTER */
-
