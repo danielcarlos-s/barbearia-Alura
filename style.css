@@ -1,0 +1,42 @@
+/* BASE */
+body {
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+em strong {
+    color: red;
+}
+
+/* HEADER */
+
+
+/* MAIN */
+.banner {
+    width: 100%;
+}
+
+.principal {
+    background: #cccccc;
+}
+
+.missao {
+    font-size: 20px;
+}
+
+.beneficios {
+
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios-imagem {
+    
+}
+
+/* FOOTER */
+
