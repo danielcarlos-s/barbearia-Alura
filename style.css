@@ -1,5 +1,10 @@
-body{
+body,
+input {
     font-family: 'Poppins', sans-serif;
+}
+
+input {
+    border: 1px solid #333333;
 }
 
 .container {
@@ -7,6 +12,7 @@ body{
     width: 940px;
     margin: 0 auto;
 }
+
 /* HEADER .................................................*/
 header {
     background: #333333;
@@ -30,11 +36,12 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 22px;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 nav a:hover {
     color: #E9881B;
-    transition: 0.3s;
 }
 
 .titulo-principal {
@@ -49,12 +56,25 @@ nav a:hover {
 .principal {
     background: #cccccc;
     padding: 30px;
-    text-align: center;
 }
 
 
-.titulo-centralizado {
+.titulo-principal {
     text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: 500;
+}
+
+.principal em {
+    font-style: italic;
 }
 
 .missao {
@@ -84,7 +104,7 @@ ul {
     padding: 50px 0;
 }
 
-.produtos li{
+.produtos li {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -130,13 +150,14 @@ form {
     margin: 40px 0;
 }
 
-form label, legend{
+form label,
+legend {
     display: block;
     font-size: 20px;
     margin: 0 0 8px;
 }
 
-.input-padrao{
+.input-padrao {
     display: block;
     margin: 0 0 24px;
     padding: 8px 24px;
@@ -146,6 +167,40 @@ form label, legend{
 .checkbox {
     margin: 24px 0;
 }
+
+.botao {
+    width: auto;
+    padding: 0 16px;
+    height: 50px;
+    color: #333333;
+    font-size: 18px;
+    background: transparent;
+    font-weight: 500;
+    border: #E9881B 1px solid;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.botao:hover {
+    color:#E9881B;
+    transform: scale(1.01);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background-color: #E9881B;
+    color: #f2f2f2;
+}
+
+th, td {
+    border: 1px solid #333333;
+    padding: 8px 16px;
+}
+
+
 
 /* FOOTER .................................................*/
 footer {
